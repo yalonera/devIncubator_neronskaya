@@ -1,0 +1,7 @@
+userID,name,sureName,birthday,telephone,countryCode,email,addressRegistration,addressResidence,passportNo,nationality
+1,Vasya,Pupkin,1996-12-01,291066980,+359,vasyapupkin@mail.ru,"Minsk city Lenin street house 5","Minsk city Lenin street house 5",MC1234567,bulgarian
+2,Petya,Petrov,1980-06-05,336783456,+850,petyapetrov@gmail.com,"Minsk city Yakub Kolas street house 78 apartment 45","Minsk city Yakub Kolas street house 78 apartment 45",MP2347856,korean
+3,Masha,Omar,1997-07-21,297890002,+974,maria@yandex.ru,"Minsk city Yakub Kolas street house 78 apartment 15","Minsk city Yakub Kolas street house 78 apartment 15",MC3425678,belarusian
+4,Olya,Neronskaya,1996-06-02,295398841,+375,neronskayaolka@gmail.com,"Minsk city Gold slide street house 10 ","Slutsk сity Slavic street house 7",MC5673587,belarusian
+5,Sasha,Promokasha,1990-09-29,256784578,+30,sashka@gmail.com,"Minsk city Gold slide street house 10 ","Baranovichi City Sovetskaya Street house 23",MP5673958,"greek urum"
+6,Sergei,Medved,1971-08-25,296086821,+375,sergeisergei@tut.by,"Slutsk сity Slavic street house 7","Slutsk сity Slavic street house 7",MC4567823,spaniard

@@ -1,0 +1,9 @@
+accountID,userID,accountCurrency,type,status,cashback,isRefundable,credit,dateOfCreation,dateOfExpiration,balance
+546,1,USD,salary,gold,2,1,5000,2017-12-02,161565,8967
+8567,3,USD,salary,platinum,5,1,10000,2020-03-12,162265,9800
+549,6,USD,saving,standard,0,0,0,2019-09-25,158307,5000
+345,2,USD,salary,standard,0,1,0,2016-11-25,158834,2500
+568,4,USD,salary,platinum,5,1,12000,2018-09-01,165409,12768
+789,1,USD,salary,gold,2,1,0,2019-12-13,160112,8900
+340,5,USD,salary,gold,2,1,10000,2017-06-01,158574,15300
+3493,4,USD,saving,platinum,5,0,0,2020-03-19,158470,3700
