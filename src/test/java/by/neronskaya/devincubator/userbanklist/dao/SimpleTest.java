@@ -49,8 +49,7 @@ public class SimpleTest {
     @Parameterized.Parameters
     public static Collection getParameters() {
         return Arrays.asList(new Object[][]{
-                {Account.class, new Account(), 11},
-//                {User.class, new User()}
+                {Account.class, new Account(), 11}
         });
     }
 
