@@ -12,12 +12,13 @@
 <body>
 <h1></h1>
 <%
+
     try {
         String connectionURL = "jdbc:mysql://localhost:3306/userbanklist";
         Class.forName("com.mysql.jdbc.Driver").newInstance();
         Connection connection = DriverManager.getConnection(connectionURL, "root", "8008");
         if (!connection.isClosed()) {
-            out.println("Successfully connected to " + "MySQL server using TCP/IP...");
+            out.println("Successfully connected to DB. MySQL server using TCP/IP...");
             connection.close();
         }
     } catch (Exception ex) {

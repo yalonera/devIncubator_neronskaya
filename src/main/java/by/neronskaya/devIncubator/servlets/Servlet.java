@@ -18,20 +18,10 @@ import java.util.List;
 
 @WebServlet("/Servlet")
 public class Servlet extends HttpServlet {
-    private GenericDAO dao;
-    private Connection connection;
-    private static final DAOFactory<Connection> factory = new MySqlDAOFactory();
-    protected Class daoClass;
 
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        response.setContentType("text/html;charset=UTF-8");
-        PrintWriter writer = response.getWriter();
-        try {
-            writer.println(dao = new MySqlAccountDAO(connection));
-        } finally {
-            writer.close();
-        }
+
 
 
     }
