@@ -3,6 +3,7 @@ package by.neronskaya.devIncubator.mysql;
 import by.neronskaya.devIncubator.dao.AbstractJDBCDao;
 import by.neronskaya.devIncubator.dao.PersistException;
 import by.neronskaya.devIncubator.domain.User;
+import by.neronskaya.devIncubator.utils.Util;
 
 import java.sql.Connection;
 import java.sql.ResultSet;
@@ -33,7 +34,7 @@ public class MySqlUserDAO extends AbstractJDBCDao<User, Integer> {
                 user.setUserID(rs.getInt("userId"));
                 user.setName(rs.getString("name"));
                 user.setSureName(rs.getString("sureName"));
-                user.setBirthday(rs.getDate("birthday"));
+                user.setBirthday(Util.convert(rs.getDate("birthday")));
                 user.setTelephone(rs.getInt("telephone"));
                 user.setCountryCode(rs.getString("countryCode"));
                 user.setEmail(rs.getString("email"));
@@ -49,11 +50,5 @@ public class MySqlUserDAO extends AbstractJDBCDao<User, Integer> {
         return result;
     }
 
-    protected java.sql.Date convert(java.util.Date date) {
-        if (date == null) {
-            return null;
-        }
-        return new java.sql.Date(date.getTime());
-    }
 
 }

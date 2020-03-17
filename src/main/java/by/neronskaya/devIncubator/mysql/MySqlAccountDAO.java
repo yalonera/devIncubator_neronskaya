@@ -3,6 +3,7 @@ package by.neronskaya.devIncubator.mysql;
 import by.neronskaya.devIncubator.dao.AbstractJDBCDao;
 import by.neronskaya.devIncubator.dao.PersistException;
 import by.neronskaya.devIncubator.domain.Account;
+import by.neronskaya.devIncubator.utils.Util;
 
 import java.sql.Connection;
 import java.sql.ResultSet;
@@ -38,7 +39,7 @@ public class MySqlAccountDAO extends AbstractJDBCDao<Account, Integer> {
                 account.setCashback(rs.getInt("cashback"));
                 account.setRefundable(rs.getBoolean("isRefundable"));
                 account.setCredit(rs.getInt("credit"));
-                account.setDateOfCreation(rs.getDate("dateOfCreation"));
+                account.setDateOfCreation(Util.convert(rs.getDate("dateOfCreation")));
                 account.setDateOfExpiration(rs.getInt("dateOfExpiration"));
                 account.setBalance(rs.getInt("balance"));
                 result.add(account);
