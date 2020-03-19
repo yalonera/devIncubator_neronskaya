@@ -108,17 +108,17 @@ public class User implements Identifier {
     @Override
     public String toString() {
         return "User{" +
-                "userID=" + userID +
-                ", name='" + name + '\'' +
-                ", sureName='" + sureName + '\'' +
-                ", birthday='" + birthday + '\'' +
-                ", telephone=" + telephone +
-                ", countryCode='" + countryCode + '\'' +
-                ", email='" + email + '\'' +
-                ", addressRegistration='" + addressRegistration + '\'' +
-                ", addressResidence='" + addressResidence + '\'' +
-                ", passportNo='" + passportNo + '\'' +
-                ", nationality='" + nationality + '\'' +
+                "userID = " + userID +
+                ", name = '" + name + '\'' +
+                ", sureName = '" + sureName + '\'' +
+                ", birthday = '" + birthday + '\'' +
+                ", telephone = " + telephone +
+                ", countryCode = '" + countryCode + '\'' +
+                ", email = '" + email + '\'' +
+                ", addressRegistration = '" + addressRegistration + '\'' +
+                ", addressResidence = '" + addressResidence + '\'' +
+                ", passportNo = '" + passportNo + '\'' +
+                ", nationality = '" + nationality + '\'' +
                 '}';
     }
 }

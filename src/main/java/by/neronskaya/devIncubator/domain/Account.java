@@ -108,17 +108,17 @@ public class Account implements Identifier {
     @Override
     public String toString() {
         return "Account{" +
-                "accountID=" + accountID +
-                ", userID=" + userID +
-                ", accountCurrency='" + accountCurrency + '\'' +
-                ", type='" + type + '\'' +
-                ", status='" + status + '\'' +
-                ", cashback=" + cashback +
-                ", isRefundable='" + isRefundable + '\'' +
-                ", credit=" + credit +
-                ", dateOfCreation='" + dateOfCreation + '\'' +
-                ", dateOfExpiration=" + dateOfExpiration +
-                ", balance=" + balance +
+                "accountID = " + accountID +
+                ", userID = " + userID +
+                ", accountCurrency = '" + accountCurrency + '\'' +
+                ", type = '" + type + '\'' +
+                ", status = '" + status + '\'' +
+                ", cashback = " + cashback +
+                ", isRefundable = '" + isRefundable + '\'' +
+                ", credit = " + credit +
+                ", dateOfCreation = '" + dateOfCreation + '\'' +
+                ", dateOfExpiration = " + dateOfExpiration +
+                ", balance = " + balance +
                 '}';
     }
 }

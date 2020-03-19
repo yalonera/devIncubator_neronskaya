@@ -35,39 +35,39 @@
     <h3> JSP to view </h3>
 
     <form action="">
-<%--        <%--%>
-<%--            try {--%>
-<%--                connection = DriverManager.getConnection(connectionUrl + database, userid, password);--%>
-<%--                statement = connection.createStatement();--%>
-<%--                String queryRichestUser = "SELECT userBalance.sureName, MAX(balanceSum) FROM (\n" +--%>
-<%--                        "    SELECT name, sureName, SUM(balance) AS balanceSum FROM user\n" +--%>
-<%--                        "            JOIN account USING(userID)\n" +--%>
-<%--                        "            GROUP BY user.userID\n" +--%>
-<%--                        "            ORDER BY user.userID) as userBalance;";--%>
-<%--                String querySumBalance = "SELECT SUM(balance) FROM userbanklist.account;";--%>
-<%--                resultSet = statement.executeQuery(queryRichestUser);--%>
-<%--                resultSet1 = statement.executeQuery(querySumBalance);--%>
-<%--                while (resultSet.next()) {--%>
-<%--        %>--%>
+        <%--        <%--%>
+        <%--            try {--%>
+        <%--                connection = DriverManager.getConnection(connectionUrl + database, userid, password);--%>
+        <%--                statement = connection.createStatement();--%>
+        <%--                String queryRichestUser = "SELECT userBalance.sureName, MAX(balanceSum) FROM (\n" +--%>
+        <%--                        "    SELECT name, sureName, SUM(balance) AS balanceSum FROM user\n" +--%>
+        <%--                        "            JOIN account USING(userID)\n" +--%>
+        <%--                        "            GROUP BY user.userID\n" +--%>
+        <%--                        "            ORDER BY user.userID) as userBalance;";--%>
+        <%--                String querySumBalance = "SELECT SUM(balance) FROM userbanklist.account;";--%>
+        <%--                resultSet = statement.executeQuery(queryRichestUser);--%>
+        <%--                resultSet1 = statement.executeQuery(querySumBalance);--%>
+        <%--                while (resultSet.next()) {--%>
+        <%--        %>--%>
 
         <p><input type="text" name="richest user " size="40">
             <input type="button" value=".get">
         </p>
-<%--        <%--%>
-<%--            }--%>
-<%--            while (resultSet1.next()) {--%>
-<%--        %>--%>
+        <%--        <%--%>
+        <%--            }--%>
+        <%--            while (resultSet1.next()) {--%>
+        <%--        %>--%>
 
         <p><input type="text" name="account sum " size="40">
             <input type="button" value=".get">
         </p>
-<%--        <%--%>
-<%--                }--%>
-<%--                connection.close();--%>
-<%--            } catch (Exception e) {--%>
-<%--                e.printStackTrace();--%>
-<%--            }--%>
-<%--        %>--%>
+        <%--        <%--%>
+        <%--                }--%>
+        <%--                connection.close();--%>
+        <%--            } catch (Exception e) {--%>
+        <%--                e.printStackTrace();--%>
+        <%--            }--%>
+        <%--        %>--%>
     </form>
 </center>
 

@@ -54,6 +54,7 @@ public abstract class AbstractJDBCDao<T extends Identifier, PK extends Integer> 
         }
         return list;
     }
+
     @Override
     public int getFieldNumber() throws PersistException {
         int result = 0;
